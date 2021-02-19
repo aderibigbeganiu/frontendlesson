@@ -1,0 +1,49 @@
+body {
+    font-family: Roboto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    border: 2px solid #F1F1F1;
+    box-sizing: border-box;
+    border-radius: 8px;
+    width: 765px;
+    margin: 44px auto 0;
+
+    .container__toptext {
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 52px;
+        text-transform: uppercase;
+        color: #8A939A;
+        margin: 59px 0 0 71px;
+    }
+
+    .container__faq {
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 37px;
+        color: #293D4A;
+        margin: 10px 0 0 71px;
+    }
+
+    .container__row {
+        margin: 20px 78px;
+        display: flex;
+    }
+
+    .container__rowtext {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 38px;
+        color: #293D4A;
+    }
+
+    .container__plus, .container__minus {
+        margin-inline-end: 32px;
+    }
+}

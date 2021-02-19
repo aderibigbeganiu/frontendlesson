@@ -1,0 +1,57 @@
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  width: 528px;
+  margin: 112px auto 0;
+  background: #FFFFFF;
+  border: 1px solid #BDBDBD;
+  border-radius: 4px;
+  font-family: Roboto;
+}
+
+.container .container__img {
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.container .container__heading {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  margin: 28px 18px;
+}
+
+.container .container__text {
+  font-size: 13px;
+  line-height: 17px;
+  margin: 0 18px;
+}
+
+.container .container__btn {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #009B41;
+  color: #FFF;
+  padding: 13px 168px;
+  margin: 26px 18px 18px;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+}
+/*# sourceMappingURL=lesson3.css.map */

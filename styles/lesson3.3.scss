@@ -1,0 +1,56 @@
+.container {
+    align-content: center;
+    background: #FFFFFF;
+    border: 2px solid #F1F1F1;
+    box-sizing: border-box;
+    border-radius: 8px;
+    width: 776px;
+    margin:188px auto 0;
+
+    .container__heading {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 45px;
+        color: #293D4A;
+        margin: 49px 0 0 44px;
+    }
+
+    .container__card {
+        background: #FFFFFF;
+        box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.07);
+        border-radius: 5.80645px;
+        margin: 22px 44px;
+        padding: 20px 24px;
+    }
+
+    .container__card-title-price {
+        display: flex;
+    }
+
+    .container__card-title {
+        font-family: SF Pro Text;
+        font-size: 16px;
+        line-height: 19px;
+        color: #333333;
+        margin-block-end: 17px;
+
+    }
+
+    .container__card-price {
+        font-family: SF Pro Text;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: right;
+        margin-left: auto;
+        color: #24AC6B;
+    }
+    
+    .container__card-description {
+        font-family: SF Pro Text;
+        font-size: 16px;
+        line-height: 19px;
+        color: #1D2029;
+    }
+}

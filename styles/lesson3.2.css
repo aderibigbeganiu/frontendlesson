@@ -1,0 +1,289 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    font-family: Roboto;
+    justify-content: left;
+    margin: 5px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 743px;
+    margin:0 auto;
+    border: 1px solid #F1F1F1;
+}
+
+.profile {
+    margin: 0 15px;
+}
+
+.profile-info {
+    justify-content: space-around;
+    display: flex;
+    margin: 20px 0 0;
+}
+
+img {
+    height: 70px;
+    border-radius: 50%;
+}
+
+.profile-img {
+    display: flex;
+    justify-content: center;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+}
+
+.nameid {
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 21px;
+    color: #ABB4BD;
+}
+
+.name-text {
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 21px;
+    margin-block-end: 20px;
+}
+
+.networthid {
+    color: #ABB4BD;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 21px;
+}
+
+.networth-text {
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 21px;
+    color: #2DA5EC;
+}
+
+.userid {
+    color: #ABB4BD;
+    font-size: 15px;
+}
+
+.user-text {
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 21px;
+    margin-block-end: 20px;
+}
+
+.cscsno {
+    color: #ABB4BD;
+    font-size: 15px;
+}
+
+.cscs-text {
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 21px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+    img {
+        height: auto;
+    }
+
+    body {
+        display: flex;
+        height: 100vh;
+        width: 743px;
+        font-family: Roboto;
+        justify-content: center;
+        align-content: center;
+        margin: 0px auto;
+    }
+    .container {
+        flex-direction: column;
+        height: 441px;
+        width: 743px;
+        margin: 188px 0 0 0;
+        border: 2px solid #F1F1F1;
+        box-sizing: border-box;
+        border-radius: 8px;
+    }
+    .heading {
+        margin: 49px 0px 0px 77px;
+        font-size: 34px;
+        line-height: 37px;
+        color: #293D4A;
+    }
+    .profile {
+        display: flex;
+        margin: 51px 0 0 89px;
+    }
+
+    .profile-info {
+        margin-left: 47px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .col-1 {
+        margin-inline-end: 67px;
+    }
+
+    .nameid {
+        line-height: 15px;
+        color: #ABB4BD;
+        margin-block-end: 11px;
+    }
+    .name-text {
+        height: 22px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 21px;
+        margin-block-end: 40px;
+    }
+    
+    .networthid {
+        line-height: 15px;
+        color: #ABB4BD;
+        margin-block-end: 11px;
+    }
+    .networth-text {
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 15px;
+
+        color: #2DA5EC;
+    }
+
+    .userid {
+        line-height: 15px;
+        color: #ABB4BD;
+        margin-block-end: 11px;
+    }
+    
+    .user-text {
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+        margin-block-end: 40px;
+    }
+
+    .cscsno {
+        line-height: 15px;
+        color: #ABB4BD;
+        margin-block-end: 11px;
+    }
+
+    .cscs-text{
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+    }
+}
+
+
+@media screen and (min-width: 1024px) {
+
+    img {
+        height: auto;
+    }
+
+    body {
+        display: flex;
+        height: 100vh;
+        width: 743px;
+        font-family: Roboto;
+        justify-content: center;
+        align-content: center;
+        margin: 0px auto;
+    }
+    .container {
+        flex-direction: column;
+        height: 441px;
+        width: 743px;
+        margin: 188px 0 0 0;
+        border: 2px solid #F1F1F1;
+        box-sizing: border-box;
+        border-radius: 8px;
+    }
+    .heading {
+        margin: 49px 0px 0px 77px;
+        font-size: 34px;
+        line-height: 37px;
+        color: #293D4A;
+    }
+    .profile {
+        display: flex;
+        margin: 51px 0 0 89px;
+    }
+
+    .profile-info {
+        margin-left: 47px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .col-1 {
+        margin-inline-end: 67px;
+    }
+
+    .nameid {
+        line-height: 15px;
+        color: #ABB4BD;
+        margin-block-end: 11px;
+    }
+    .name-text {
+        height: 22px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 21px;
+        margin-block-end: 40px;
+    }
+    
+    .networthid {
+        line-height: 15px;
+        color: #ABB4BD;
+        margin-block-end: 11px;
+    }
+    .networth-text {
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 15px;
+
+        color: #2DA5EC;
+    }
+
+    .userid {
+        line-height: 15px;
+        color: #ABB4BD;
+        margin-block-end: 11px;
+    }
+    
+    .user-text {
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+        margin-block-end: 40px;
+    }
+
+    .cscsno {
+        line-height: 15px;
+        color: #ABB4BD;
+        margin-block-end: 11px;
+    }
+
+    .cscs-text{
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+    }
+}

@@ -1,0 +1,60 @@
+body {
+  font-family: Roboto;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  border: 2px solid #F1F1F1;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 8px;
+  width: 765px;
+  margin: 44px auto 0;
+}
+
+.container .container__toptext {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 52px;
+  text-transform: uppercase;
+  color: #8A939A;
+  margin: 59px 0 0 71px;
+}
+
+.container .container__faq {
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 37px;
+  color: #293D4A;
+  margin: 10px 0 0 71px;
+}
+
+.container .container__row {
+  margin: 20px 78px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .container__rowtext {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 38px;
+  color: #293D4A;
+}
+
+.container .container__plus, .container .container__minus {
+  -webkit-margin-end: 32px;
+          margin-inline-end: 32px;
+}
+/*# sourceMappingURL=lesson3.1.css.map */
